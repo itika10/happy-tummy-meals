@@ -1,1 +1,198 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
 
+h1,
+h2,
+h3,
+h4,
+h5,
+em {
+  font-weight: 600;
+  color: #064635;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+p {
+  font-size: 0.9rem;
+  line-height: 1.2;
+  color: #519259;
+  padding: 10px 0;
+}
+
+/* Title Page */
+
+#title {
+  background-color: #519259;
+  color: #064635;
+}
+
+.big-heading {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.2;
+  padding-bottom: 1.5rem;
+}
+
+.container-fluid {
+  padding: 2% 10%;
+}
+
+/* Navbar */
+
+.navbar {
+  padding-bottom: 3rem;
+}
+.nav-link {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #f0bb62;
+}
+
+.nav-item {
+  padding: 0 0.8rem;
+}
+
+/* Image */
+
+.food-img {
+  margin-left: 15px;
+}
+
+/* Title page buttons */
+
+.btn-style {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.5rem;
+  --bs-btn-color: #064635;
+  --bs-btn-bg: #f4eea9;
+  --bs-btn-border-color: #064635;
+  --bs-btn-hover-color: #064635;
+  --bs-btn-hover-bg: #f0bb62;
+  --bs-btn-hover-border-color: #064635;
+  --bs-btn-focus-shadow-rgb: 66, 70, 73;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #4d5154;
+  --bs-btn-active-border-color: #373b3e;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #212529;
+  --bs-btn-disabled-border-color: #212529;
+}
+
+/* Features */
+
+#features {
+  background-color: #fff;
+  color: #064635;
+  text-align: center;
+  padding: 15% 12%;
+}
+
+.icons {
+  color: #f0bb62;
+  margin-bottom: 1rem;
+}
+
+.fa-features:hover {
+  color: #b07612;
+}
+
+/* Menu */
+
+#menu {
+  background-color: #519259;
+  padding: 8% 15%;
+}
+
+.menu-heading {
+  color: #064635;
+  text-align: center;
+}
+
+.menu-content {
+  color: #f0bb62;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.table-header {
+  color: #064635;
+  text-align: center;
+}
+
+.table {
+  color: #f0bb62;
+}
+
+/* Reviews */
+
+#reviews {
+  padding: 8% 0;
+  text-align: center;
+}
+
+.reviews-heading {
+  color: #064635;
+  text-align: center;
+}
+
+.carousel {
+  margin-top: 80px;
+}
+
+.carousel-item {
+  padding: 0 15%;
+}
+
+.carousel-content {
+  font-size: 1.3rem;
+  font-weight: 520;
+  line-height: 1.3;
+}
+
+.carousel-icon {
+  background-color: #519259;
+}
+
+/* Orders */
+
+#order {
+  padding: 10% 15%;
+  background-color: #519259;
+  text-align: center;
+}
+
+.order-heading {
+}
+
+.btn-order {
+  margin-top: 8%;
+}
+
+/* Footer */
+
+#footer {
+  padding: 8% 15%;
+  text-align: center;
+}
+
+.icons-footer {
+  padding: 10px;
+}
+
+/* CTA section */
+
+@media (max-width: 990px) {
+  #title {
+    text-align: center;
+  }
+
+  .food-img {
+    margin-left: 0px;
+  }
+}
